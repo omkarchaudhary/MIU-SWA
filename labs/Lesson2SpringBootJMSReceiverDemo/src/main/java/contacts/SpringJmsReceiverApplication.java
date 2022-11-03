@@ -1,15 +1,13 @@
-package books;
+package contacts;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.SpringApplication;
 import org.springframework.jms.annotation.EnableJms;
 
 @SpringBootApplication
 @EnableJms
-public class BookApplication {
-
+public class SpringJmsReceiverApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(BookApplication.class, args);
+		SpringApplication.run(SpringJmsReceiverApplication.class, args);
 	}
-
 }

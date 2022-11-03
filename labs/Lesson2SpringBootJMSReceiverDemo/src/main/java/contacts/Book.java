@@ -1,15 +1,11 @@
-package books.entity;
+package contacts;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-@Entity
-public class Book {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+import java.io.Serializable;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Book implements Serializable {
     private String isbn;
     private String author;
     private String title;
@@ -17,20 +13,12 @@ public class Book {
 
     public Book() {
     }
-    public Book(Long id, String isbn, String author, String title, Double price) {
-        this.id = id;
+
+    public Book(String isbn, String author, String title, Double price) {
         this.isbn = isbn;
         this.author = author;
         this.title = title;
         this.price = price;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getIsbn() {
@@ -68,8 +56,7 @@ public class Book {
     @Override
     public String toString() {
         return "Book{" +
-                "id=" + id +
-                ", isbn='" + isbn + '\'' +
+                "isbn='" + isbn + '\'' +
                 ", author='" + author + '\'' +
                 ", title='" + title + '\'' +
                 ", price=" + price +
