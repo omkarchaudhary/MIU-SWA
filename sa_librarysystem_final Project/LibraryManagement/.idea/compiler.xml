@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
+        <module name="LibrarySystem" />
+        <module name="CustomerService" />
+        <module name="ConfigServerService" />
+        <module name="BorrowingService" />
+        <module name="BooksCommandsService" />
+        <module name="ReviewService" />
+        <module name="APIGatewayService" />
+        <module name="BookQueriesService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="APIGatewayService" target="17" />
+      <module name="BookQueriesService" target="17" />
+      <module name="BooksCommandsService" target="17" />
+      <module name="Borrowings" target="17" />
+      <module name="BorrowingService" target="17" />
+      <module name="ConfigServerService" target="17" />
+      <module name="CustomerService" target="17" />
+      <module name="EurekaServer" target="17" />
+      <module name="LibrarySystem" target="17" />
+      <module name="ReviewService" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="APIGatewayService" options="-parameters" />
+      <module name="BookQueriesService" options="-parameters" />
+      <module name="BooksCommandsService" options="-parameters" />
+      <module name="BorrowingService" options="-parameters" />
+      <module name="Borrowings" options="-parameters" />
+      <module name="ConfigServerService" options="-parameters" />
+      <module name="CustomerService" options="-parameters" />
+      <module name="EurekaServer" options="-parameters" />
+      <module name="LibrarySystem" options="-parameters" />
+      <module name="ReviewService" options="-parameters" />
+    </option>
+  </component>
+</project>

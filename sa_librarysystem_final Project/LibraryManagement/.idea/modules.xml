@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../APIGatewayService/APIGatewayService.iml" filepath="$PROJECT_DIR$/../APIGatewayService/APIGatewayService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../BookQueriesService/BookQueriesService.iml" filepath="$PROJECT_DIR$/../BookQueriesService/BookQueriesService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../BooksCommandsService/BooksCommandsService.iml" filepath="$PROJECT_DIR$/../BooksCommandsService/BooksCommandsService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../BorrowingService/BorrowingService.iml" filepath="$PROJECT_DIR$/../BorrowingService/BorrowingService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ConfigServerService/ConfigServerService.iml" filepath="$PROJECT_DIR$/../ConfigServerService/ConfigServerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CustomerService/CustomerService.iml" filepath="$PROJECT_DIR$/../CustomerService/CustomerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/../EurekaServer/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibraryManagement.iml" filepath="$PROJECT_DIR$/LibraryManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LibrarySystem/LibrarySystem.iml" filepath="$PROJECT_DIR$/../LibrarySystem/LibrarySystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ReviewService/ReviewService.iml" filepath="$PROJECT_DIR$/../ReviewService/ReviewService.iml" />
+    </modules>
+  </component>
+</project>
